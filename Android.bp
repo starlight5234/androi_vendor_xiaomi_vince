@@ -131,6 +131,7 @@ cc_prebuilt_library_shared {
 	},
 	compile_multilib: "32",
 	prefer: true,
+	shared_libs: ["libc", "libdl", "liblog", "libm", "libstdc++"],
 	soc_specific: true,
 }
 
@@ -147,6 +148,7 @@ cc_prebuilt_library_shared {
 	},
 	compile_multilib: "32",
 	prefer: true,
+	shared_libs: ["libEGL", "libGLESv2", "libc", "libdl", "liblog", "libm", "libstdc++"],
 	soc_specific: true,
 }
 
