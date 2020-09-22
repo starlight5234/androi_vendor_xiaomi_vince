@@ -131,7 +131,6 @@ cc_prebuilt_library_shared {
 	},
 	compile_multilib: "32",
 	prefer: true,
-	check_elf_files: false,
 	soc_specific: true,
 }
 
@@ -148,7 +147,6 @@ cc_prebuilt_library_shared {
 	},
 	compile_multilib: "32",
 	prefer: true,
-	check_elf_files: false,
 	soc_specific: true,
 }
 
